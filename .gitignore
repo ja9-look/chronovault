@@ -1,0 +1,22 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+
+# Environment variables
+.env
+.env.development
+
+# Hardhat artifacts and cache
+artifacts/
+cache/
+
+# Next.js build output
+.next/
+out/
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store

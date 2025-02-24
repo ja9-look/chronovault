@@ -1,0 +1,58 @@
+{
+  "name": "chronovault",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "tailwind": "tailwindcss -i ./styles/globals.css -o ./styles/output.css --watch"
+  },
+  "keywords": [
+    "web3",
+    "dApp",
+    "Next.js",
+    "Solidity",
+    "Hardhat"
+  ],
+  "author": "Janine Luk",
+  "license": "MIT",
+  "description": "ChronoVault - A dApp for buying and selling authenticated vintage luxury watches.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/chronovault.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/chronovault/issues"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@types/node": "^20.11.21",
+    "@types/react": "^18.2.66",
+    "autoprefixer": "^10.4.17",
+    "chai": "^5.2.0",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^15.1.7",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.22.19",
+    "postcss": "^8.4.37",
+    "tailwindcss": "^4.0.8",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.2.0",
+    "@rainbow-me/rainbowkit": "^2.2.4",
+    "dotenv": "^16.4.7",
+    "next": "^15.1.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "viem": "^2.23.4",
+    "wagmi": "^2.14.11"
+  }
+}
