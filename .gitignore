@@ -20,3 +20,9 @@ logs/
 
 # OS generated files
 .DS_Store
+
+# package-lock file
+package-lock.json
+
+# typechain files
+typechain-types/
